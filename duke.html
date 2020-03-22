@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/motor.css">
+</head>
+<body>
+    <main>
+        <div>
+            <div class="container">
+                 <p class="design">Motorbike Color Changer</p>
+                 <img class="img" src="img/790 Duke Orange.png" alt="">
+                 <br>
+                 <br>
+                 <div class="left">
+                    <p class="ran">generate ramdom color</p>
+                    <button onclick="generate()" class="gen">Generate</button>
+                 </div>
+                 <div class="right">
+                    <p class="spec">generate specific color</p>
+                    <select name="" id="colorchanger">
+                        <option value="blue">Blue</option>
+                        <option value="grey">Grey</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="lblue">Light-Blue</option>
+                        <option value="black">Black</option>
+                       </select>
+                       <br>
+                       <br>
+                    <button onclick="specific()" class="show">Show</button>
+                    <button onclick="reset()" class="reset">Reset</button>
+                 </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/random.js" ></script>
+<script src="js/reset.js"></script>
+<script src="js/specific.js"></script>
+</html>

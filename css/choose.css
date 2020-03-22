@@ -1,0 +1,47 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(../img/Black-And-Red-HD-Wallpaper.jpg);
+}
+@font-face{
+    src: url(../fonts/Kontanter-Bold.otf);
+    font-family: "blanka";
+}
+
+
+.img{
+    width: 300px;
+    margin: 15px;
+}
+.img1{
+    width: 275px;
+}
+.text{
+    color: white;
+    font-size: 35px;
+    font-family: blanka;
+}
+.container{
+    margin-top: 3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-radius: 8px;
+    height: 35rem;
+    text-align: center;
+    background-color: #e0e5ec;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.wrapper:hover .overlay{
+    opacity: 100;
+
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
